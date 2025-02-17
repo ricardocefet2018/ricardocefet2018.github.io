@@ -1,16 +1,11 @@
 <script setup lang="ts">
-import { Toolbar } from 'primevue';
 import { RouterView } from 'vue-router';
-import IconR from './components/icons/IconR.vue';
+import MyToolbar from './components/MyToolbar.vue';
 </script>
 
 <template>
-  <Toolbar>
-    <template #start>
-      <IconR size="3rem" />
-    </template>
-    <template #end> </template>
-  </Toolbar>
+  <MyToolbar />
+
   <RouterView />
 </template>
 
