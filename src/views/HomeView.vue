@@ -7,24 +7,31 @@
         <div class="col-12 lg:col-6" style="height: 33rem"></div>
         <div class="col-12 lg:col-6 flex">
           <!-- <div style="background-color: red; width: 30rem; height: 30rem"></div> -->
-          <p class="main-text align-content-center">
-            Lorem ipsum dolor sit amet 1985, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum.
+          <p class="main-text">
+            Olá me chamo Ricardo Rocha. Sou programador de profissão, formado pelo CEFET-MG em
+            Desenvolvimento de Sistemas, na turma de 2018. Do final de 2019 até o meio 2021
+            trabalhei como programador, após este período foquei em um projeto pessoal que acabou
+            virando meu emprego integral. Atualmente trabalho com desenvolvimento desktop usando
+            TypeScript, Electron, Vue, C# e SQLite e desenvolvimento de APIs usando JavaScript,
+            Node, ExpressJS e MongoDB.
           </p>
         </div>
       </div>
     </div>
-    <div style="height: 1600px; width: var(--viewport-width); background-color: red"></div>
+    <div class="container-primary"></div>
   </div>
 </template>
 
 <style scoped>
 .banner {
   font-size: 2rem;
+}
+
+.container-primary {
+  height: 1600px;
+  background-color: var(--p-primary-color);
+  color: var(--p-button-primary-color);
+  border-radius: var(--p-border-radius-sm);
 }
 
 @media screen and (max-width: 992px) {
