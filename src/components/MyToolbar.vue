@@ -3,7 +3,7 @@
     <Toolbar class="" :class="{ fitted }">
       <template #start>
         <img
-          src="../assets/logo.png"
+          src="../assets/images/logo.png"
           alt="logo"
           :class="route.name == 'home' ? 'animated-logo' : ''"
           id="logo"
