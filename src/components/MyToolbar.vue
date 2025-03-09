@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky shadow-5" style="top: -1px; padding-top: 1px" ref="toolbar">
+  <div class="sticky shadow-5" style="top: -1px; padding-top: 1px; z-index: 1" ref="toolbar">
     <Toolbar class="" :class="{ fitted }">
       <template #start>
         <img
